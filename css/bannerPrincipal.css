@@ -1,0 +1,51 @@
+.bannerPrincipal {
+    width: 90vw;
+    margin: 4rem auto;
+}
+
+.textoComBanner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 5rem;
+}
+
+.textoPrincipal {
+    width: 345px;
+}
+
+.textoPrincipal h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #AB9365;   
+}
+
+.textoPrincipal h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #000;
+    margin: 2rem 0;
+    line-height: calc(3.9rem + 0.5vw);
+}
+
+.textoPrincipal p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #AB9365;
+    margin: 2rem 0;
+}
+
+.bannerPrincipalLogo {
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    transform: translate(-50%,-50%);
+}
+
+.bannerPrincipalImagemIlustrativa {
+    justify-self: flex-end;
+}
+
+

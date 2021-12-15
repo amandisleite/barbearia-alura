@@ -1,0 +1,46 @@
+.localizacao {
+    background-color: #000;
+}
+
+.localizacaoConteudo {
+    width: 90vw;
+    margin: 0rem auto;
+    padding: 4rem 0;
+}
+
+.localizacaoTextoComBanner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 5rem;
+}
+
+.textoLocalizacao {
+    width: 470px;
+    text-align: right;
+}
+
+.textoLocalizacao h2 {
+    font-size: 3rem;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.textoLocalizacao span {
+    color: #AB9365;
+}
+
+.textoLocalizacao p {
+    font-size: 1.1rem;
+    color: #FFF;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.retanguloDecorativo {
+    position: absolute;
+    left: 50%;
+    top: 140%;
+    transform: translate(-50%,-50%);
+}

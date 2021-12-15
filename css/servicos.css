@@ -1,0 +1,69 @@
+.servicos {
+    background-color: #FFF;
+}
+
+.servicosGrupo {
+    width: 90vw;
+    margin: 0rem auto;
+    padding: 4rem 0;
+}
+
+.servicoDescricao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 5rem;
+}
+
+.servicoDescricao li {
+    width: 288px;
+    text-align: center;
+    height: 375px;  
+}
+
+.servicoDescricaoCabelo {
+    background-image: url('../assets/retServicosCabelo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.servicoDescricaoBarba {
+    background-image: url('../assets/retServicosCabelo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.servicoDescricaoCabeloBarba {
+    background-image: url('../assets/retServicosCabelo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.servicoDescricao h2 {
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.servicoTexto {
+    color: #000;
+    font-size: 1.1rem;
+    width: 180px;
+    margin: 14rem auto 0 auto;
+    text-align: center;
+}
+
+.servicoPreco {
+    color: #AB9365;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.servicoDescricao .retanguloDecorativo {
+    position: absolute;
+    left: 50%;
+    top: 240%;
+    transform: translate(-50%,-50%);
+}

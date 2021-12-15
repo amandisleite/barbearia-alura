@@ -1,0 +1,46 @@
+.horario {
+    width: 90vw;
+    margin: 4rem auto;
+}
+
+.conteudoComImagem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 5rem;
+}
+
+.qualidadesItem {
+    font-size: 2.4rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.qualidadesItem:nth-child(2n) {
+    font-weight: 100;
+}
+
+.horarioDeAtendimento {
+    font-size: 2.1rem;
+    color: #000;
+
+    margin-top: 9rem;
+}
+
+.horarioDeAtendimento h3 {
+    color: #AB9365;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.horarioDeAtendimento span {
+    font-weight: 700;
+}
+
+.horario .retanguloDecorativo {
+    position: absolute;
+    left: 65%;
+    top: 293%;
+    transform: translate(-50%,-50%);
+}
