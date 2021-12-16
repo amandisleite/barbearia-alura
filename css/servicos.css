@@ -97,10 +97,12 @@
 
     .servicoDescricaoCabelo img {
         margin-top: -13rem;
+        width: 90%;
     }
 
     .servicoDescricaoBarba img {
         margin-top: -13rem;
+        width: 90%;
     }
 
     .servicoDescricaoCabeloBarba .servicoTexto {
@@ -113,6 +115,7 @@
 
     .servicoDescricaoCabeloBarba img {
         margin-top: -15.5rem;
+        width: 90%;
     }
 
     .servicoTexto {
@@ -131,6 +134,26 @@
     .servicoDescricao {
         padding: 0 1rem;
         margin: 0 auto;
+    }
+
+    .servicoDescricaoCabelo img {
+        margin-top: -18rem;
+    }
+
+    .servicoDescricaoBarba img {
+        margin-top: -18rem;
+    }
+
+    .servicoDescricaoCabeloBarba .servicoTexto {
+        margin: 18rem auto 0 auto;
+    }
+
+    .servicoDescricaoCabeloBarba .servicoPreco {
+        margin-top: 0.5rem;
+    }
+
+    .servicoDescricaoCabeloBarba img {
+        margin-top: -21rem;
     }
 
     .servicoDescricao li {
@@ -155,5 +178,28 @@
         margin: 2rem auto;
         width: 50vw;
         height: auto;
+    }
+
+    .servicoDescricaoCabelo img {
+        margin-top: -18rem;
+        width: 80%;
+    }
+
+    .servicoDescricaoBarba img {
+        margin-top: -18rem;
+        width: 80%;
+    }
+
+    .servicoDescricaoCabeloBarba .servicoTexto {
+        margin: 18rem auto 0 auto;
+    }
+
+    .servicoDescricaoCabeloBarba .servicoPreco {
+        margin-top: 0.5rem;
+    }
+
+    .servicoDescricaoCabeloBarba img {
+        margin-top: -20.5rem;
+        width: 80%;
     }
 }
