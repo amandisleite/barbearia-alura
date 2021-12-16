@@ -5,6 +5,7 @@
 
 .textoComBanner {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 
@@ -38,14 +39,59 @@
 }
 
 .bannerPrincipalLogo {
-    position: absolute;
+    width: 200px;
+    /* position: absolute;
     left: 50%;
     top: 47%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
 }
 
 .bannerPrincipalImagemIlustrativa {
     justify-self: flex-end;
 }
 
+@media screen and (max-width: 280px) {
 
+    .bannerPrincipal {
+        width: 100vw;
+        margin: 2rem auto;
+    }
+
+    .textoPrincipal h2 {
+        font-size: 3rem;
+        line-height: 2.8rem;
+    }
+
+    .textoComBanner {
+        padding: 0;
+    }
+
+    .textoPrincipal {
+        padding: 0 2rem;
+    }
+
+    .bannerPrincipalImagemIlustrativa {
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 281px) and (max-width: 1024px) {
+
+    .bannerPrincipal {
+        width: 100vw;
+        margin: 2rem auto;
+    }
+
+    .textoComBanner {
+        padding: 0;
+    }
+
+    .textoPrincipal {
+        padding: 0 2rem;
+    }
+
+    .bannerPrincipalImagemIlustrativa {
+        width: 100vw;
+    }
+    
+}

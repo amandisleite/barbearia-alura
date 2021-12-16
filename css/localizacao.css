@@ -10,6 +10,7 @@
 
 .localizacaoTextoComBanner {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 
@@ -43,4 +44,43 @@
     left: 50%;
     top: 140%;
     transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .localizacaoConteudo {
+        width: 100vw;
+        padding: 2rem 0;
+    }
+
+    .localizacaoTextoComBanner {
+        padding: 0;
+    }
+
+    .localizacaoTextoComBanner img {
+        width: 100vw;
+    }
+
+    .textoLocalizacao {
+        width: 90vw;
+        text-align: left;
+        padding: 0 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .textoLocalizacao h2 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .textoLocalizacao p {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .localizacaoTextoComBanner img {
+        width: 48%;
+    }
 }

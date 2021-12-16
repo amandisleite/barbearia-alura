@@ -5,6 +5,7 @@
 
 .conteudoComImagem {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 
@@ -44,3 +45,101 @@
     top: 293%;
     transform: translate(-50%,-50%);
 }
+
+@media screen and (max-width: 280px) {
+
+    .horario {
+        margin: 1rem auto;
+        width: 100vw;
+    }
+    
+    .conteudoComImagem {
+        width: 70vw;
+        padding: 0;
+    }
+
+    .conteudoComImagem img {
+        width: 100vw;
+        margin-top: -1rem;
+    }
+
+    .qualidadesHorarioConteudo {
+        padding-left: 1.5rem;
+        transform: scale(0.9);
+    }
+
+    .horarioDeAtendimento {
+        margin: 3rem 0;
+    }
+}
+
+@media screen and (min-width: 281px) and (max-width: 480px) {
+
+    .horario {
+        margin: 2rem auto;
+        width: 100vw;
+    }
+    
+    .conteudoComImagem {
+        width: 70vw;
+        padding: 0;
+    }
+
+    .conteudoComImagem img {
+        width: 100vw;
+    }
+
+    .qualidadesHorarioConteudo {
+        padding-left: 3rem;
+    }
+
+    .horarioDeAtendimento {
+        margin: 3rem 0;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+    .horario {
+        margin: 2rem auto;
+        width: 100vw;
+    }
+    
+    .conteudoComImagem {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .conteudoComImagem img {
+        width: 100vw;
+    }
+
+    .qualidadesHorarioConteudo {
+        padding-left: 3rem;
+    }
+
+    .horarioDeAtendimento {
+        margin: 3rem 0;
+    }
+
+    .conteudoComImagem img {
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+/* @media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .horario {
+        margin: 2rem auto;
+        width: 100vw;
+        padding: 0 6rem;
+    }
+
+    .conteudoComImagem img {
+        width: 40%;
+    }
+} */
