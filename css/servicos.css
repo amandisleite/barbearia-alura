@@ -125,7 +125,56 @@
     
 }
 
-@media screen and (min-width: 281px) and (max-width: 480px) {
+@media screen and (min-width: 281px) and (max-width: 375px) {
+
+    .servicosGrupo {
+        padding: 1rem 0;
+    }
+
+    .servicoDescricao {
+        padding: 0 1rem;
+        margin: 0 auto;
+    }
+
+    .servicoDescricaoCabelo img {
+        margin-top: -18rem;
+        width: 100%;
+    }
+
+    .servicoDescricaoBarba img {
+        margin-top: -18rem;
+        width: 100%;
+    }
+
+    .servicoDescricaoCabeloBarba .servicoTexto {
+        margin: 18rem auto 0 auto;
+    }
+
+    .servicoDescricaoCabeloBarba .servicoPreco {
+        margin-top: 0.5rem;
+    }
+
+    .servicoDescricaoCabeloBarba img {
+        margin-top: -21rem;
+        width: 100%;
+    }
+
+    .servicoDescricao li {
+        margin: 2rem auto;
+        width: 80vw;
+        height: auto;
+    }
+
+    .servicoTexto {
+        transform: scale(1.1);
+    }
+
+    .servicoPreco {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 480px) {
 
     .servicosGrupo {
         padding: 1rem 0;
