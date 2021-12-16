@@ -4,6 +4,8 @@
 
 No curso de HTML e CSS da Alura, produzimos um site para a Barbearia Alura.
 Aqui está a minha releitura dele, com mudança na estrutura (fiz uma landing page, removendo as páginas internas) e refiz o CSS, ajustando também a responsividade.
+<br><br>
+O site pode ser acessado <a href="https://amandisleite.github.io/barbearia-alura/">aqui</a>.
 
 ## Tecnologias usadas:
 
